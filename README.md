@@ -15,8 +15,8 @@ nurses run is NOT a palidrome.
 Madam, I'm Adam! is NOT a palidrome.  
 A Man! A Plan! A Canal! Panama! is NOT a palidrome.  
 3. You need to finish the `palindrome()` method 
-4. Start by getting the `palindrome()` method to return `true` for `'rotator'` and `false` for`'test'` and `'rewriter'`
-5. Once you get those three working correctly, you'll need to devise a strategy for working with spaces and capital letters. You may find `String` functions like `charAt()` and `toLowerCase()` helpful
+4. Start by getting the `palindrome()` method to return `true` for `"rotator"` and `false` for`'"test"` and `"rewriter"`
+5. Once you get those three working correctly, you'll need to devise a strategy for working with spaces and capital letters. You may find the `String` functions like `charAt()` and `toLowerCase()` helpful
 6. Submit the URL of your GitHub repository to the School Loop drop box for the assignment. Note that like the previous two assignments, this assignment has no graphics or website. 
 
 

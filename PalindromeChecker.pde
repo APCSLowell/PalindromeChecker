@@ -14,16 +14,41 @@ public void setup()
     }
   }
 }
-public boolean palindrome(String word)
+public boolean palindrome(String sWord)
 {
-  //your code here
+  String qq = onlyLetters(noSpaces(noCapitals(sWord)));
+  String bb = onlyLetters(noSpaces(noCapitals(reverse(sWord))));
+  if(bb.equals(qq)){
+    return true;
+  }
   return false;
 }
-public String reverse(String str)
+public String reverse(String sWord)
 {
-    String sNew = new String();
-    //your code here
-    return sNew;
+    String bb = "";
+  for(int i = 0; i < sWord.length();i++){
+    bb += sWord.substring(sWord.length()-i-1,sWord.length()-i);
+  }
+  return bb;
 }
-
-
+public String noCapitals(String sWord){
+  return sWord.toLowerCase();
+}
+public String noSpaces(String sWord){
+  String gg = "";
+  for(int i = 0; i<sWord.length(); i++){
+    if(!sWord.substring(i,i+1).equals(" ")){
+      gg+=sWord.substring(i,i+1);
+  }
+}
+return gg;
+}
+public String onlyLetters(String sString){
+  String gg = "";
+  for(int i = 0; i < sString.length();i++){
+    if(Character.isLetter(sString.charAt(i))){
+      gg +=sString.charAt(i);
+    }
+  }
+  return gg;
+}

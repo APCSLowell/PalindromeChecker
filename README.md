@@ -16,6 +16,6 @@ Madam, I'm Adam! is NOT a palidrome.
 A Man! A Plan! A Canal! Panama! is NOT a palidrome.  
 3. Start by finishing the `reverse()` and `palindrome()` methods. You'll want the program to print that `"rotator"` is a palindrome and `"test"` and `"rewriter"` are NOT palindromes. You may find the custom codingbat problems [reverse](http://codingbat.com/prob/p260931?parent=/home/simona1@sfusd.edu) and [isPalindrome](http://codingbat.com/prob/p205423?parent=/home/simona1@sfusd.edu) helpful.
 5. Once you get the program working correctly for `"rotator"`,`"test"` and `"rewriter"`, you'll need to devise a strategy for working with spaces and capital letters. You may find one or more of these custom codingbat problems helpful:  [noCapitals](http://codingbat.com/prob/p259800?parent=/home/simona1@sfusd.edu), [noSpaces](http://codingbat.com/prob/p240112?parent=/home/simona1@sfusd.edu), [numLetters](http://codingbat.com/prob/p285953?parent=/home/simona1@sfusd.edu), and  [onlyLetters](http://codingbat.com/prob/p274283?parent=/home/simona1@sfusd.edu).
-6. Submit the URL of your GitHub repository to Google Classroom.
+6. Since there is no website for this assignment, submit the URL of your GitHub repository to Google Classroom. It will have the form ```http://github.com/ your github username /PalindromeChecker```
 
 

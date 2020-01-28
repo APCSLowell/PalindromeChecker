@@ -1,7 +1,7 @@
 public void setup()
 {
   String lines[] = loadStrings("palindromes.txt");
-  println("there are " + lines.length + " lines");
+  System.out.println("there are " + lines.length + " lines");
   for (int i=0; i < lines.length; i++) 
   {
     if(palindrome(lines[i])==true)

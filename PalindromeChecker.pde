@@ -6,11 +6,11 @@ public void setup()
   {
     if(palindrome(lines[i])==true)
     {
-      println(lines[i] + " IS a palindrome.");
+      System.out.println(lines[i] + " IS a palindrome.");
     }
     else
     {
-      println(lines[i] + " is NOT a palindrome.");
+      System.out.println(lines[i] + " is NOT a palindrome.");
     }
   }
 }

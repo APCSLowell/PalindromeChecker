@@ -5,8 +5,8 @@ A [palindrome](http://en.wikipedia.org/wiki/Palindrome)  is a word, phrase, numb
 Suggested steps to complete this assignment
 -------------------------------------------
 
-1. Fork and clone down this repository.
-2. Run the program. You should see the following output:  
+1. Fork and clone down this repository, or fork this [Palindrome Checker on repl.it](https://repl.it/@MrSimonLowell/PalindromeBase#Sketch.java).
+2. Run the program. You should see the following (incorrect) output:  
 there are 6 lines  
 test is NOT a palidrome.  
 rotator is NOT a palidrome.  
